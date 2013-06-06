@@ -1,7 +1,7 @@
 body {
-	max-width: 50em;
-	margin: 0 auto;
-	padding: 1em;
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .video {
@@ -9,7 +9,7 @@ body {
 }
 
 .video + .video {
-	margin-top: 1em;
+    margin-top: 1em;
 }
 
 .video > iframe {
