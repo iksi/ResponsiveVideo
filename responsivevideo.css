@@ -1,0 +1,21 @@
+body {
+	max-width: 50em;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.video {
+    position: relative;
+}
+
+.video + .video {
+	margin-top: 1em;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
