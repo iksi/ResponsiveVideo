@@ -1,4 +1,6 @@
 $(function(){
+    'use strict';
+    /* global $ */
     $(document).ready(function(){
         $('.video').each(function(){
             var iframe = $(this).find('iframe');
